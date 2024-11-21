@@ -1,6 +1,6 @@
 import React from "react";
 import { HeaderContainer } from "./styles";
-import Logo from "../../assets/placeholder-logo.png";
+import Logo from "../../assets/semed-logo.png";
 
 const Header: React.FC = () => {
 
@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <img
         src={Logo}
         alt="Logo"
-        style={{ height: "24px", cursor: "pointer" }}
+        style={{ height: "80px", cursor: "pointer" }}
         onClick={() => window.location.reload()}
       />
     </HeaderContainer>
