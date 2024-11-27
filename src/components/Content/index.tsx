@@ -1,53 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { Container } from "./styles";
 import { Grid, Box, Typography } from "@mui/material";
-import eu from "../../assets/Pictograms/eu.png";
-import voce from "../../assets/Pictograms/voce.png";
-import quero from "../../assets/Pictograms/quero.png";
-import nao_quero from "../../assets/Pictograms/nao_quero.png";
-import agua from "../../assets/Pictograms/agua.png";
-import banheiro from "../../assets/Pictograms/banheiro.png";
-import brincar from "../../assets/Pictograms/brincar.png";
-import sair from "../../assets/Pictograms/sair.png";
-import comer from "../../assets/Pictograms/comer.png";
-import conversar from "../../assets/Pictograms/conversar.png";
-import triste from "../../assets/Pictograms/triste.png";
-import dor from "../../assets/Pictograms/dor.png";
-import feliz from "../../assets/Pictograms/feliz.png";
-import oi from "../../assets/Pictograms/oi.png";
-import nao from "../../assets/Pictograms/nao.png";
-import sim from "../../assets/Pictograms/sim.png";
-import lavar_as_maos from "../../assets/Pictograms/lavar_as_maos.png";
-import acabou from "../../assets/Pictograms/acabou.png";
-import dormir from "../../assets/Pictograms/dormir.png";
-import obrigado from "../../assets/Pictograms/obrigado.png";
-import tchau from "../../assets/Pictograms/tchau.png";
-
-
-
-const pictograms = [
-  { image: oi, text: "Oi" },
-  { image: tchau, text: "Tchau" },
-  { image: eu, text: "Eu" },
-  { image: voce, text: "Você" },
-  { image: quero, text: "Quero" },
-  { image: nao_quero, text: "Não quero" },
-  { image: agua, text: "Água" },
-  { image: banheiro, text: "Banheiro" },
-  { image: brincar, text: "Brincar" },
-  { image: conversar, text: "Conversar" },
-  { image: lavar_as_maos, text: "Lavar as mãos" },
-  { image: dormir, text: "Dormir" },
-  { image: sair, text: "Ir embora" },
-  { image: comer, text: "Comer" },
-  { image: feliz, text: "Feliz" },
-  { image: triste, text: "Triste" },
-  { image: dor, text: "Dor" },
-  { image: sim, text: "Sim" },
-  { image: nao, text: "Não" },
-  { image: obrigado, text: "Obrigado" },
-  { image: acabou, text: "Acabou" },
-];
+import { PictogramLabels } from "../../assets/Pictograms";
 
 const Content: React.FC = () => {
   const [speaking, setSpeaking] = useState<number | null>(null);
@@ -56,7 +10,7 @@ const Content: React.FC = () => {
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'pt-BR';
+    utterance.lang = "pt-BR";
 
     setSpeaking(index);
 
@@ -68,10 +22,10 @@ const Content: React.FC = () => {
   };
 
   return (
-    <Container style={{ overflow: 'hidden' }}>
+    <Container style={{ overflow: "hidden" }}>
       <Grid container spacing={2}>
-        {pictograms.map((pictogram, index) => (
-          <Grid item xs={12} sm={6} md={3} key={index}>
+        {PictogramLabels.map((pictogram, index) => (
+          <Grid item xs={12} sm={6} md={4} xl={2} key={index}>
             <Box
               onClick={() => speakText(pictogram.text, index)}
               sx={{
