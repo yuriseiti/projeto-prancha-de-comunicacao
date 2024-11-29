@@ -27,7 +27,13 @@ import parque from "./parque.png";
 import esperar from "./esperar.png";
 import sentar from "./sentar.png";
 import massinha from "./massinha.png";
+import abafador from "./abafador.png";
 import onibus from "./onibus.png";
+import psicomotricidade from "./psicomotricidade.jpeg";
+import arte from "./arte.jpeg";
+import musica from "./musica.png";
+import linguagem from "./linguagem.jpeg";
+import logicamatematica from "./logicamatematica.jpeg";
 
 export const PictogramLabels = [
   { image: oi, text: "Oi" },
@@ -41,6 +47,7 @@ export const PictogramLabels = [
   { image: atividade, text: "Atividade" },
   { image: brincar, text: "Brincar" },
   { image: massinha, text: "Massinha" },
+  { image: abafador, text: "Abafador" },
   { image: parque, text: "Parque" },
   { image: esperar, text: "Esperar" },
   { image: sentar, text: "Sentar" },
@@ -55,6 +62,11 @@ export const PictogramLabels = [
   { image: dor, text: "Dor" },
   { image: sim, text: "Sim" },
   { image: nao, text: "Não" },
+  { image: psicomotricidade, text: "Psicomotricidade" },
+  { image: arte, text: "Arte" },
+  { image: musica, text: "Música" },
+  { image: linguagem, text: "Linguagem" },
+  { image: logicamatematica, text: "Lógica Matemática" },
   { image: sair, text: "Ir embora" },
   { image: onibus, text: "Ônibus" },
   { image: obrigado, text: "Obrigado" },
