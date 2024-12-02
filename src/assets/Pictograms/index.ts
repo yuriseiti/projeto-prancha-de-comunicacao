@@ -2,8 +2,8 @@
 
 import oi from "./oi.png";
 import voce from "./voce.png";
-import quero from "./quero.png";
-import naoQuero from "./nao_quero.png";
+import quero from "./quero.jpeg";
+import naoQuero from "./nao-quero.jpeg";
 import agua from "./agua.png";
 import banheiro from "./banheiro.png";
 import sair from "./sair.png";
