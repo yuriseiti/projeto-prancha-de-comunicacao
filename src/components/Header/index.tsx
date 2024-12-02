@@ -7,24 +7,37 @@ const Header: React.FC = () => {
   return (
     <HeaderContainer>
       <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-        <img
+        <Box
+          component="img"
           src={Logo}
           alt="Logo"
-          style={{ height: "80px", cursor: "pointer", marginRight: "16px" }}
+          sx={{
+            height: "80px",
+            maxHeight: "100%",
+            width: "auto",
+            cursor: "pointer",
+            marginRight: { xs: "8px", sm: "16px" },
+          }}
           onClick={() => window.location.reload()}
         />
         <Typography
           sx={{
-            fontSize: "1.7rem",
+            fontSize: {
+              xs: "1rem",
+              sm: "1.5rem",
+              md: "1.7rem",
+            },
             fontWeight: "bold",
             color: "#fff",
             textAlign: "center",
             flexGrow: 1,
-            marginRight: "80px",
+            marginRight: { xs: "16px", sm: "80px" },
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+            whiteSpace: "normal",
+            wordWrap: "break-word",
           }}
         >
-          Centro Municipal de Educação Inclusiva da REME
+          Centro Municipal de Educação Especial Inclusiva da REME
         </Typography>
       </Box>
     </HeaderContainer>
