@@ -1,6 +1,7 @@
 // src/assets/Pictograms/index.ts
 
 import oi from "./oi.png";
+import eu from "./eu.png";
 import voce from "./voce.png";
 import quero from "./quero.jpeg";
 import naoQuero from "./nao-quero.jpeg";
@@ -38,7 +39,7 @@ import logicamatematica from "./logicamatematica.jpeg";
 export const PictogramLabels = [
   { image: oi, text: "Oi" },
   { image: tchau, text: "Tchau" },
-  { image: oi, text: "Eu" },
+  { image: eu, text: "Eu" },
   { image: voce, text: "Você" },
   { image: quero, text: "Quero" },
   { image: naoQuero, text: "Não quero" },
