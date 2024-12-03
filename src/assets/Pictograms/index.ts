@@ -1,6 +1,6 @@
 // src/assets/Pictograms/index.ts
 
-import oi from "./oi.png";
+// import oi from "./oi.png";
 import eu from "./eu.png";
 import voce from "./voce.png";
 import quero from "./quero.jpeg";
@@ -9,32 +9,32 @@ import agua from "./agua.png";
 import banheiro from "./banheiro.png";
 import sair from "./sair.png";
 import comer from "./comer.png";
-import conversar from "./conversar.png";
-import triste from "./triste.png";
-import dor from "./dor.png";
-import feliz from "./feliz.png";
+// import conversar from "./conversar.png";
+// import triste from "./triste.png";
+// import dor from "./dor.png";
+// import feliz from "./feliz.png";
 import nao from "./nao.png";
 import sim from "./sim.png";
-import lavarAsMaos from "./lavar_as_maos.png";
-import elevador from "./elevador.png";
-import escada from "./escada.png";
-import acabou from "./acabou.png";
-import dormir from "./dormir.png";
-import obrigado from "./obrigado.png";
-import tchau from "./tchau.png";
-import atividade from "./atividade.png";
+// import lavarAsMaos from "./lavar_as_maos.png";
+// import elevador from "./elevador.png";
+// import escada from "./escada.png";
+// import acabou from "./acabou.png";
+// import dormir from "./dormir.png";
+// import obrigado from "./obrigado.png";
+// import tchau from "./tchau.png";
+// import atividade from "./atividade.png";
 import brincar from "./brincar.png";
-import parque from "./parque.png";
-import esperar from "./esperar.png";
+// import parque from "./parque.png";
+// import esperar from "./esperar.png";
 import sentar from "./sentar.png";
-import massinha from "./massinha.png";
-import abafador from "./abafador.png";
-import onibus from "./onibus.png";
-import psicomotricidade from "./psicomotricidade.jpeg";
-import arte from "./arte.jpeg";
-import musica from "./musica.png";
-import linguagem from "./linguagem.jpeg";
-import logicamatematica from "./logicamatematica.jpeg";
+// import massinha from "./massinha.png";
+// import abafador from "./abafador.png";
+// import onibus from "./onibus.png";
+// import psicomotricidade from "./psicomotricidade.jpeg";
+// import arte from "./arte.jpeg";
+// import musica from "./musica.png";
+// import linguagem from "./linguagem.jpeg";
+// import logicamatematica from "./logicamatematica.jpeg";
 
 export const PictogramLabels = [
   // { image: oi, text: "Oi" },
